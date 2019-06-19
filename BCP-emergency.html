@@ -1,0 +1,897 @@
+<!doctype html>
+<html lang="zh-8">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>BCP防災腳本-防災應變小組</title>
+  </head>
+  <body>
+    <div id="screen" style="width:100%;color: #fff;" >
+
+      <!-- As a heading -->
+      <nav class="navbar navbar-dark fixed-top" style="background: hsla(240, 0%, 10%, 1)">
+        <a class="navbar-brand mb-0" href="index.html"><b>防災應變小組</b></a>
+        <button type="button" class="btn btn-outline-light  navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span>查詢</span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="myNavbar">
+          <ul class="nav d-flex-column">
+            <li id="nav-a" class="nav-item col-md-3">
+              <a class="nav-link active" href="#E-1">緊急應變小組成立</a>
+            </li>
+            <li id="nav-a" class="nav-item col-md-3">
+              <a class="nav-link" href="#E-2">緊急應變小組運作</a>
+            </li>
+            <li id="nav-a" class="nav-item col-md-3">
+              <a class="nav-link" href="#E-3">雨災／水災：預警到應變</a>
+            </li>
+            <li id="nav-a" class="nav-item col-md-3">
+              <a class="nav-link" href="#E-4">設施故障毀損</a>
+            </li>
+            <li id="nav-a" class="nav-item col-md-3">
+              <a class="nav-link" href="#E-5">醫療／消防事件</a>
+            </li>
+            <li id="nav-a" class="nav-item col-md-3">
+              <a class="nav-link" href="#E-6">配合停班停課</a>
+            </li>
+            <li id="nav-a" class="nav-item col-12">
+              <a class="nav-link" href="index.html" tabindex="-1" aria-disabled="true">回到首頁</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <div class="container">  
+        <span id="E-1">　</span>
+        <h4 style="margin-top:5rem;margin-bottom:1rem;"><b>一、緊急應變小組成立</b></h4>
+        
+        <ul class="nav  justify-content-center flex-column">
+          <a class="col nav-link" href="#wait" style="color:#fff;">1．緊急應變小組待命</a>
+          <a class="col nav-link" href="#typhoon" style="color:#fff;">2．風災緊急應變小組成立</a>
+          <a class="col nav-link" href="#flood" style="color:#fff;">3．水災應變小組成立</a>
+        </ul>
+        
+        <span id="wait">　</span>
+        <div id="bk-8" style="margin:0px;padding:10px;">
+          <h5 class="text-center" style="line-height:60px;"><b>緊急應變小組待命</b></h5>
+          <div class="container">
+            <p>下列任一發生時成立緊急應變小組：<br/>
+              1.　[大禹系統系集預報] 任一園區<span style="color:yellow;">未來24小時累積雨量達200毫米</span>。<br/>
+              2.　[大禹系統系集預報] 任一園區<span style="color:yellow;">未來3小時累積雨量達80毫米</span>。<br/>
+              3.　[氣象局預報] 發布豪雨特報，園區所在縣市所屬氣象站<span style="color:yellow;">24小時累積雨量達200mm以上</span>。<br/>
+              4.　[氣象局預報] 任一園區<span style="color:yellow;">未來24小時陣風達8級風</span>。</p>
+
+          </div>
+        </div>
+        <table class="rwd-table">
+          <tr id="bk-6">
+            <th class="text-center">標的</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="標的">緊急應變小組待命</td>
+            <td data-th="權責單位">環安組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．待命，持續追蹤水情系統及最新災害訊息，若研判認為有必要，通報局長成立緊急應變小組；</a>
+                <a>2．發布宣導訊息給廠商。</a>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td data-th="標的">緊急應變小組待命</td>
+            <td data-th="權責單位">營建組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．待命，持續追蹤水情系統及最新災害訊息，若研判認為有必要，通報局長成立緊急應變小組；</a>
+                <a>2．檢查發電、照明設備，確定滯洪池的運作。</a>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td data-th="標的">--</td>
+            <td data-th="權責單位">水情系統</td>
+            <td data-th="決策層級">--</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                大禹系統每3小時發送最新氣象預報及現況資訊：
+                <a>1．[系集預報] 園區未來24小時、未來3小時累積雨量；</a>
+                <a>2．[氣象局預報] 未來24小時最大陣風；</a>
+                <a>3．[水位監測] 滯洪池水位。</a>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        
+        <span id="typhoon">　</span>
+        <div id="bk-8" style=";margin:0px;padding:10px;">
+          <h5 class="text-center" style="line-height:60px;"><b>(風災)緊急應變小組成立</b></h5>
+          <div class="container">
+            <p>下列任一發生時成立(風災)緊急應變小組：<br/>
+              1.　[氣象局預報] <span style="color:yellow;">氣象局發布海上陸上颱風警報</span>，園區所在縣市列為警戒區。<br/>
+              2.　[氣象局預報] 任一園區<span style="color:yellow;">未來24小時陣風達10級風</span>。<br/>
+              3.　環安組研判有必要時。</p>
+
+          </div>
+        </div>
+        <table class="rwd-table">
+          <tr id="bk-6">
+            <th class="text-center">標的</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="標的">(風災)緊急應變小組成立</td>
+            <td data-th="權責單位">環安組</td>
+            <td data-th="決策層級">組長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．通報局長後，視災害規模成立緊急應變小組，設置於管理局2樓緊急應變中心，辦理災害防救事宜；</a>
+                <a>2．按任務編組通知環安組、營建組、公管組、建管組、保警隊、人事室。</a>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td data-th="標的">(風災)緊急應變小組成立</td>
+            <td data-th="權責單位">局長</td>
+            <td data-th="決策層級">--</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>依災害潛在規模判斷是否成立緊急應變小組，隨時追蹤與掌握各組防減災作業狀況。</a>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td data-th="標的">(風災)緊急應變小組成立</td>
+            <td data-th="權責單位">人事室</td>
+            <td data-th="決策層級">專員</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>排訂及通知緊急應變中心24小時值班人員，請值班人員協助處理園區突發狀況。</a>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td data-th="標的">園區巡檢</td>
+            <td data-th="權責單位">營建組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>聯絡契約廠商進行汛期前巡檢，確保排水溝無雜物堵塞。</a>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td data-th="標的">園區巡檢</td>
+            <td data-th="權責單位">建管組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．加固可能受風災影響之交通號誌設施；</a>
+                <a>2．進行管理局建築防颱準備工作（例如門窗關閉與加固）。</a>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        
+        <span id="flood">　</span>
+        <div id="bk-8" style="margin:0px;padding:10px;">
+          <h5 class="text-center" style="line-height:60px;"><b>(水災)緊急應變小組成立</b></h5>
+          <div class="container">
+            <p>下列任一發生時成立(水災)緊急應變小組：<br/>
+              1.　<span style="color:yellow;">[氣象局預報] 發布豪雨特報，園區所在縣市所屬氣象站24小時累積雨量達350mm以上。</span><br/>
+              2.　[系集預報] 任一園區<span style="color:yellow;">未來24小時累積雨量達350 mm</span>。<br/>
+              3.　[系集預報] 任一園區<span style="color:yellow;">未來3小時累積雨量達150 mm</span>。<br/>
+              4.　營建組研判有必要時。</p>
+
+          </div>
+        </div>
+        <table class="rwd-table">
+          <tr id="bk-6">
+            <th class="text-center">標的</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="標的">(水災)緊急應變小組成立</td>
+            <td data-th="權責單位">營建組</td>
+            <td data-th="決策層級">組長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．通報局長後，視災害規模成立緊急應變小組，設置於管理局2樓緊急應變中心，辦理災害防救事宜；</a>
+                <a>2．按任務編組通知環安組、營建組、公管組、建管組、保警隊、人事室。</a>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td data-th="標的">(水災)緊急應變小組成立</td>
+            <td data-th="權責單位">局長</td>
+            <td data-th="決策層級">--</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>災害潛在規模判斷是否成立緊急應變小組，隨時追蹤與掌握各組防減災作業狀況。</a>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td data-th="標的">(水災)緊急應變小組成立</td>
+            <td data-th="權責單位">人事室</td>
+            <td data-th="決策層級">專員</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>排訂及通知緊急應變中心24小時值班人員，請值班人員協助處理園區突發狀況。</a>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td data-th="標的">園區巡檢</td>
+            <td data-th="權責單位">營建組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>聯絡契約廠商進行汛期前巡檢，確保排水溝無雜物堵塞。</a>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        
+        <h4 id="E-2" style="margin-top:5rem;margin-bottom:1rem;"><b>二、緊急應變小組運作</b></h4>
+
+        <ul class="nav  justify-content-center flex-column">
+          <a class="col nav-link" style="color:yellow;" data-toggle="collapse" href="#collapse-1" role="button" aria-expanded="false" aria-controls="collapse-1">▼ 各組室工作</a>
+          
+          <div class="collapse" id="collapse-1">
+            <div class="container">
+              <a class="col nav-link" href="#E-2-1-1" style="color:#fff;">1．值班人員</a>
+              <a class="col nav-link" href="#E-2-1-2" style="color:#fff;">2．局長</a>
+              <a class="col nav-link" href="#E-2-1-3" style="color:#fff;">3．環安組</a>
+              <a class="col nav-link" href="#E-2-1-4" style="color:#fff;">4．投資組</a>
+              <a class="col nav-link" href="#E-2-1-5" style="color:#fff;">5．工商組</a>
+              <a class="col nav-link" href="#E-2-1-6" style="color:#fff;">6．營建組</a>
+              <a class="col nav-link" href="#E-2-1-7" style="color:#fff;">7．建管組</a>
+              <a class="col nav-link" href="#E-2-1-8" style="color:#fff;">8．秘書室</a>
+              <a class="col nav-link" href="#E-2-1-9" style="color:#fff;">9．保警隊</a>
+            </div>
+          </div>
+          
+          <a class="col nav-link" href="#E-2-2" style="color:#fff;">水情系統自動通知排程</a>
+        </ul>
+        <span id="E-2-1-1">　</span><br/><br/>
+        <h5 id="bk-8" class="text-center" style="margin:0px;line-height:60px;"><b>執班人員</b></h5>
+        <table class="rwd-table">
+          <tr id="bk-6">
+            <th class="text-center">標的</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="標的">緊急應變小組運作</td>
+            <td data-th="權責單位" >執班人員</td>
+            <td data-th="決策層級">--</td>
+            <td data-th="工作內容">嚴守崗位(管理局2樓緊急應變中心)並遵照緊急應變小組值班人員注意事項說明。</td>
+          </tr>
+        </table>
+        <span id="E-2-1-2">　</span><br/><br/>
+        <h5 class="text-center" style="background: hsla(240, 0%, 10%, 0.8);margin:0px;line-height:60px;"><b>局長</b></h5>
+        <table class="rwd-table">
+          <tr style="background: hsla(240, 0%, 10%, 0.6)">
+            <th class="text-center">標的</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="標的">緊急應變小組運作</td>
+            <td data-th="權責單位" >局長</td>
+            <td data-th="決策層級">--</td>
+            <td data-th="工作內容">主持災害處理會議，掌握災害防救處置進度，並視災害之規模報告科技部。</td>
+          </tr>
+        </table>
+        <span id="E-2-1-3">　</span><br/><br/>
+        <h5 id="bk-8" class="text-center" style="margin:0px;line-height:60px;"><b>環安組</b></h5>
+        <table class="rwd-table">
+          <tr id="bk-6">
+            <th class="text-center">標的</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="標的">緊急應變小組運作</td>
+            <td data-th="權責單位" >環安組</td>
+            <td data-th="決策層級">組長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．執行權責內應變措施並隨時向局長報告執行情形。</a>
+                <a>2．利用通訊軟體主動向廠商詢問災情現況，並給予其應變措施建議。</a>
+                <a>3．彙整各組日誌，陳請主任秘書、副局長、局長核閱。</a>
+                <a>4．進行防災應變工作宣導。</a>
+                <a>5．執行彙報相關文書等幕僚作業。</a>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <span id="E-2-1-4">　</span><br/><br/>
+        <h5 id="bk-8" class="text-center" style="margin:0px;line-height:60px;"><b>投資組</b></h5>
+        <table class="rwd-table">
+          <tr id="bk-6">
+            <th class="text-center">標的</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="標的">緊急應變小組運作</td>
+            <td data-th="權責單位" >投資組</td>
+            <td data-th="決策層級">組長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．必要時執行以下應變措施並隨時向局長報告執行情形：</a>
+                <a>　-國內(外)媒體接待與新聞發布；</a>
+                <a>　-輿情蒐集分析。</a>
+                <a>2．逐日填寫日誌交環安組彙辦。</a>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <span id="E-2-1-5">　</span><br/><br/>
+        <h5 id="bk-8" class="text-center" style="margin:0px;line-height:60px;"><b>工商組</b></h5>
+        <table class="rwd-table">
+          <tr id="bk-6">
+            <th class="text-center">標的</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="標的">緊急應變小組運作</td>
+            <td data-th="權責單位" >工商組</td>
+            <td data-th="決策層級">組長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．必要時執行以下應變措施並隨時向局長報告執行情形：</a>
+                <a>　-儲運(貨物進出)通關協調；</a>
+                <a>　-工商大樓設施維護及事故處置；</a>
+                <a>　-資訊系統(含通關作業)恢復正常作業之協調；</a>
+                <a>　-本局網頁之建立與維護。</a>
+                <a>2．逐日填寫日誌交環安組彙辦。</a>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <span id="E-2-1-6">　</span><br/><br/>
+        <h5 id="bk-8" class="text-center" style="margin:0px;line-height:60px;"><b>營建組</b></h5>
+        <table class="rwd-table">
+          <tr id="bk-6">
+            <th class="text-center">標的</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="標的">緊急應變小組運作</td>
+            <td data-th="權責單位" >營建組</td>
+            <td data-th="決策層級">組長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．必要時執行以下應變措施並隨時向局長報告執行情形：</a>
+                <a>　-水電油氣等公用事業之恢復及維持之協調；</a>
+                <a>　-公有建築物及公共設施之維護(不含標準廠房及宿舍)；</a>
+                <a>　-景觀植栽復建相關事宜；</a>
+                <a>　-園區滯洪池的調節與維修調度；</a>
+                <a>　-防洪、防汛相關事宜。</a>
+                <a>2．逐日填寫日誌交環安組彙辦。</a>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <span id="E-2-1-7">　</span><br/><br/>
+        <h5 id="bk-8" class="text-center" style="margin:0px;line-height:60px;"><b>建管組</b></h5>
+        <table class="rwd-table">
+          <tr id="bk-6">
+            <th class="text-center">標的</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="標的">緊急應變小組運作</td>
+            <td data-th="權責單位" >建管組</td>
+            <td data-th="決策層級">組長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．必要時執行以下應變措施並隨時向局長報告執行情形：</a>
+                <a>　-建築物使用狀況調查；</a>
+                <a>　-建築物損害調查及處置；</a>
+                <a>　-標準廠房及宿舍設施維護；</a>
+                <a>　-園區交通號誌損害調查及處置。</a>
+                <a>2．逐日填寫日誌交環安組彙辦。</a>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <span id="E-2-1-8">　</span><br/><br/>
+        <h5 id="bk-8" class="text-center" style="margin:0px;line-height:60px;"><b>秘書室</b></h5>
+        <table class="rwd-table">
+          <tr id="bk-6">
+            <th class="text-center">標的</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="標的">緊急應變小組運作</td>
+            <td data-th="權責單位" >秘書室</td>
+            <td data-th="決策層級">主任</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．必要時執行以下應變措施並隨時向局長報告執行情形：</a>
+                <a>　-行政資源相關事宜；</a>
+                <a>　-辦公大樓設施維護及事故處置；</a>
+                <a>　-經費調度支援；</a>
+                <a>　-通訊系統恢復正常作業之協調。</a>
+                <a>2．逐日填寫日誌交環安組彙辦。</a>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <span id="E-2-1-9">　</span><br/><br/>
+        <h5 id="bk-8" class="text-center" style="margin:0px;line-height:60px;"><b>保警隊</b></h5>
+        <table class="rwd-table">
+          <tr id="bk-6">
+            <th class="text-center">標的</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="標的">緊急應變小組運作</td>
+            <td data-th="權責單位" >保警隊</td>
+            <td data-th="決策層級">中隊長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．必要時執行以下應變措施並隨時向局長報告執行情形：</a>
+                <a>　-協助政風單位處理聚眾陳情、人為破壞事件；</a>
+                <a>　-執行園區治安相關事宜；</a>
+                <a>　-執行園區交通相關事宜；</a>
+                <a>　-緊急應變警戒、區內或鄰近村里人員疏散協助。</a>
+                <a>2．逐日填寫日誌交環安組彙辦。</a>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        
+        <span id="E-2-2">　</span><br/><br/>
+        <h5 class="text-center" style="background: hsla(240, 0%, 10%, 0.8);margin:0px;line-height:60px;"><b>水情系統自動通知排程</b></h5>
+        <table class="rwd-table">
+          <tr id="bk-6">
+            <th class="text-center">標的</th>
+            <th class="text-center">啟動條件</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="標的">通報廠商-暴雨</td>
+            <td data-th="啟動條件" >[系集預報] 未來72小時內園區日雨量達200mm</td>
+            <td data-th="工作內容">通報所有園區廠商颱洪災害氣象資訊(72小時後園區日雨量)，提醒可能需要執行之行動(人員輪班、進出貨物、堆放沙包、啟動出入口電動防水閘門、重要機組架高、自主抽水機啟動等安排)，並每三個小時通報最新氣象資訊。</td>
+          </tr>
+          <tr>
+            <td data-th="標的">通報廠商-颱風陸警</td>
+            <td data-th="啟動條件" >[氣象局預報] 24小時內發布陸上颱風警報</td>
+            <td data-th="工作內容">對人員輪班調度影響、出貨影響、倉儲影響、防災整備能力影響不同的廠商進行差異性資訊通報，提醒其應準備之行動，並每三個小時通報最新氣象資訊。</td>
+          </tr>
+          <tr>
+            <td data-th="標的">通報廠商-淹水</td>
+            <td data-th="啟動條件" >[系集預報] 6小時內降雨量使園區聯外道路發生積淹水</td>
+            <td data-th="工作內容">對人員輪班調度影響、出貨影響、倉儲影響、防災整備能力影響不同的廠商進行差異性資訊通報，提醒其應準備之行動，並每三個小時通報最新氣象資訊。</td>
+          </tr>
+          <tr>
+            <td data-th="標的">通報廠商-淹水</td>
+            <td data-th="啟動條件" >[淹水模擬] 未來3小時內園區部分區域積淹水</td>
+            <td data-th="工作內容">通報位在淹水範圍之廠商淹水模擬資訊(淹水區域、時間、深度)，提醒廠商自行評估啟動防洪措施（堆放沙包、啟動出入口電動防水閘門、重要機組架高、自主抽水機部屬等）。</td>
+          </tr>
+        </table>
+        
+        
+        <h4 id="E-3" style="margin-top:5rem;margin-bottom:1rem;"><b>三、暴雨／淹水：預警到應變</b></h4>
+        <div>當收到氣象局颱風警報、水情系統雨量預測、水位警戒通知時之應對。</div>
+
+        <ul class="nav  justify-content-center flex-column">
+          <a class="col nav-link" href="#E-3-1" style="color:#fff;">1．滯洪池操作</a>
+          <a class="col nav-link" href="#E-3-2" style="color:#fff;">2．人員交通疏散</a>
+        </ul>
+        <span id="E-3-1">　</span><br/><br/>
+        <h5 id="bk-8" class="text-center" style="margin:0px;line-height:60px;"><b>滯洪池操作</b></h5>
+        <table class="rwd-table">
+          <tr id="bk-6">
+            <th class="text-center">標的</th>
+            <th class="text-center" style="width:30%;">啟動條件</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center" style="width:40%;">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="標的">滯洪池</td>
+            <td data-th="啟動條件"><br/>
+              1．[氣象局預報]48小時候發布陸上颱風警報<br/>
+              2．[系集預報]地區24小時候積淹水達到200mm
+            </td>
+            <td data-th="權責單位" >營建組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．打開出水閘門進行預先放水，降低至呆水位。</a>
+                <a>2．洩洪至預計下雨前6小時，關閉閘門。</a>
+                <a>3．補充進水口關閉。</a>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td data-th="標的">滯洪池-水位警戒</td>
+            <td data-th="啟動條件"><br/>[水位監測] 滯洪池水位到達二級警戒（50%滿管）
+            </td>
+            <td data-th="權責單位" >營建組</td>
+            <td data-th="決策層級">組長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．保持滯洪池<span style="color:yellow;">出水閘門關閉</span>。</a>
+                <a>2．評估調度移動式抽水機進行水位調節之必要，提前部屬抽水機至滯洪池旁。</a>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td data-th="標的">滯洪池-水位警戒</td>
+            <td data-th="啟動條件"><br/>[水位監測] 滯洪池水位計到達第一警戒（100%滿管，即將溢流）
+            </td>
+            <td data-th="權責單位" >營建組</td>
+            <td data-th="決策層級">組長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．透過CCTV持續追蹤並記錄滯洪池溢淹狀況。</a>
+                <a>2．通報園區、社區（滯洪池下游、高危險產業類別）廠商進行防洪措施（堆放沙包、啟動出入口電動防水閘門、重要機組架高、自主抽水機啟動等）。</a>
+                <a>3．請示局長後，通報周邊居民並進行相關防洪措施或疏散避難。</a>
+                <a>4．請示局長後，通報地方政府並執行其相關指示、分配相關資源。</a>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td data-th="標的">滯洪池-異常</td>
+            <td data-th="啟動條件"><br/>[人為通報] 滯洪池發生異常
+            </td>
+            <td data-th="權責單位" >營建組</td>
+            <td data-th="決策層級">組長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                聯繫廠商進行修復與維護。
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <span id="E-3-2">　</span><br/><br/>
+        <h5 id="bk-8" class="text-center" style="margin:0px;line-height:60px;"><b>人員交通疏散</b></h5>
+        <table class="rwd-table">
+          <tr id="bk-6">
+            <th class="text-center">標的</th>
+            <th class="text-center" style="width:30%;">啟動條件</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center"  style="width:40%;">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="標的">人員交通疏散</td>
+            <td data-th="啟動條件"><br/>
+              [系集預報] 未來24小時累積雨量達<span style="color:yellow">使接駁車行駛路線積淹水達20公分以上之雨量</span>
+            </td>
+            <td data-th="權責單位" >建管組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．評估是否租用較適合涉水之車款，替代園區電動接駁車。</a>
+                <a>2．聯繫園區鄰近租車行評估車款選擇及可租用時間。</a>
+              </ul>
+            </td>     
+          </tr>
+          <tr>
+            <td data-th="標的">人員交通疏散</td>
+            <td data-th="啟動條件"><br/>
+              [淹水模擬] 未來3小時內<span style="color:yellow;">園區內道路</span>有淹水潛勢
+            </td>
+            <td data-th="權責單位" >建管組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．聯絡接駁車司機，請接駁車改行駛園區內淹水替代路線，避開淹水路段(提供路線圖)，並增加接駁站點於各廠商入口。</a>
+                <a>2．公告接駁站點及路線更改訊息，通知園區各廠商及相關人員。</a>
+                <a>3．請廠商協助確認接駁站點(廠商入口)之安全與通暢。</a>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td data-th="標的">人員交通疏散</td>
+            <td data-th="啟動條件"><br/>
+              [淹水模擬] 未來3小時內<span style="color:yellow;">園區內道路</span>有淹水潛勢
+            </td>
+            <td data-th="權責單位" >建管組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．決定管制路段 (當路面積水超過25公分時)。</a>
+                <a>2．聯絡保警隊進行相關交通管制及指揮。</a>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td data-th="標的">人員交通疏散</td>
+            <td data-th="啟動條件"><br/>
+              [淹水模擬] 未來3小時內<span style="color:yellow;">園區內道路</span>有淹水潛勢
+            </td>
+            <td data-th="權責單位" >保警隊</td>
+            <td data-th="決策層級">小隊長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>配合建管組指示，進行交通異動之道路封閉及車輛指揮工作。</a>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td data-th="標的">人員交通疏散</td>
+            <td data-th="啟動條件"><br/>
+              [淹水模擬] 未來3小時內<span style="color:yellow;">園區內道路</span>有淹水潛勢
+            </td>
+            <td data-th="權責單位" >建管組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>聯絡接駁車司機，請接駁車改行駛園區外淹水替代路線(提供路線圖)，避開淹水路段。</a>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        
+        <h4 id="E-4" style="margin-top:5rem;margin-bottom:1rem;"><b>四、設施故障毀損</b></h4>
+        <div>當各類設備、道路、通訊等發生損壞、故障、運作中斷之應對措施。</div>
+
+        <ul class="nav  justify-content-center flex-column">
+          <a class="col nav-link" href="#E-4-1" style="color:#fff;">1．供水、排水系統異常</a>
+          <a class="col nav-link" href="#E-4-2" style="color:#fff;">2．天然瓦斯氣中斷</a>
+          <a class="col nav-link" href="#E-4-3" style="color:#fff;">3．交通道路異常</a>
+          <a class="col nav-link" href="#E-4-4" style="color:#fff;">4．電信通訊異常</a>
+        </ul>
+        <span id="E-4-1">　</span><br/><br/>
+        <h5 class="text-center" style="background: hsla(240, 0%, 10%, 0.8);margin:0px;line-height:60px;"><b>供水、排水系統異常</b></h5>
+        <table class="rwd-table">
+          <tr style="background: hsla(240, 0%, 10%, 0.6)">
+            <th class="text-center">啟動條件</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="啟動條件">供水異常</td>
+            <td data-th="權責單位" >營建組</td>
+            <td data-th="決策層級">組長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>評估事件嚴重程度，若需搶修或緊急處理，聯繫開口契約廠商緊急派工（廠商須於4小時內至缺失現場完成臨時警戒措施佈設，24小時內派員進場修繕）。</a>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td data-th="啟動條件">滯洪池異常</td>
+            <td data-th="權責單位" >營建組</td>
+            <td data-th="決策層級">組長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>聯繫廠商進行修復與維護。</a>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td data-th="啟動條件">污水排水系統異常</td>
+            <td data-th="權責單位" >營建組</td>
+            <td data-th="決策層級">組長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．聯繫污水廠駐廠人員進行修復與維護。</a>
+                <a>2．通知園區內各廠商系統異常訊息，提醒進行廠區內部相關排水措施因應。</a>
+                <a>3．狀況排除後通知園區內各廠商。</a>
+              </ul>
+            </td>
+          </tr>
+        </table>
+          
+          <span id="E-4-2">　</span><br/><br/>
+        <h5 id="bk-8" class="text-center" style="margin:0px;line-height:60px;"><b>天然瓦斯氣中斷</b></h5>
+          <table class="rwd-table">
+            <tr id="bk-6">
+              <th class="text-center">啟動條件</th>
+              <th class="text-center">權責單位</th>
+              <th class="text-center">決策層級</th>
+              <th class="text-center w-50">工作內容</th>
+            </tr>
+          <tr>
+            <td data-th="啟動條件">天然瓦斯氣中斷</td>
+            <td data-th="權責單位" >營建組</td>
+            <td data-th="決策層級">組長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．聯繫契約廠商前往巡檢及修復。</a>
+                <a>2．通知各廠商天然瓦斯氣中斷異常訊息，提醒廠商內部進行緊急安全措施因應（設備機組關閉、人員撤離、準備消防設施）。</a>
+                <a>3．狀況排除後通知園區內各廠商。</a>
+              </ul>
+            </td>
+          </tr>
+        </table>
+            
+            <span id="E-4-3">　</span><br/><br/>
+        <h5 id="bk-8" class="text-center" style="margin:0px;line-height:60px;"><b>交通道路異常</b></h5>
+            <table class="rwd-table">
+              <tr id="bk-6">
+                <th class="text-center">啟動條件</th>
+                <th class="text-center">權責單位</th>
+                <th class="text-center">決策層級</th>
+                <th class="text-center w-50">工作內容</th>
+              </tr>            
+              <tr>
+                <td data-th="啟動條件">路樹倒塌阻擋交通幹道</td>
+                <td data-th="權責單位" >營建組</td>
+                <td data-th="決策層級">組長</td>
+                <td data-th="工作內容">
+                    <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                      <a>1．聯繫廠商進行路樹移除（廠商須在1小時內抵達現場辦理災害搶修）。</a>
+                      <a>2．聯繫保警隊進行交通指揮。</a>
+                      <a>3．傳播（通訊軟體、廣播等）園區道路中斷異常訊息，提醒用路人小心安全、繞道而行。</a>
+                      <a>4．狀況排除後通知園區內各廠商。</a>
+                    </ul>
+                  </td>
+              </tr>
+              <tr>
+                <td data-th="啟動條件">路樹倒塌阻擋交通幹道</td>
+                <td data-th="權責單位" >保警隊</td>
+                <td data-th="決策層級">小隊長</td>
+                <td data-th="工作內容">
+                  <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                    <a>進行交通異動之指揮工作。</a>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td data-th="啟動條件">公共照明（路燈）故障</td>
+                <td data-th="權責單位" >營建組</td>
+                <td data-th="決策層級">組長</td>
+                <td data-th="工作內容">
+                  <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                    <a>1．聯繫廠商進行修復（廠商須2小時內至現場確認故障原因，並接續完成修復）。</a>
+                    <a>2．傳播（通訊軟體、廣播等）園區公共照明異常訊息，提醒用路人小心安全。</a>
+                    <a>3．狀況排除後通知園區內各廠商。</a>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td data-th="啟動條件">交通號誌故障</td>
+                <td data-th="權責單位" >營建組</td>
+                <td data-th="決策層級">組長</td>
+                <td data-th="工作內容">
+                  <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                    <a>1．聯繫廠商進行修復（廠商應於4小時內派員抵達事故現場處理）。</a>
+                    <a>2．傳播（通訊軟體、廣播等）園區交通號誌異常訊息，提醒用路人小心安全。</a>
+                    <a>3．狀況排除後通知園區內各廠商。</a>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td data-th="啟動條件">道路、人行道、水溝、護欄等設施損壞</td>
+                <td data-th="權責單位" >營建組</td>
+                <td data-th="決策層級">組長</td>
+                <td data-th="工作內容">
+                  <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                    <a>1．聯繫廠商進行修復（廠商需於4小時內至缺失現場完成臨時警戒措施佈設，24小時內派員進場修繕）。</a>
+                    <a>2．擺放告示牌說明故障原因與預計修復時間，並提醒用路人小心安全。</a>
+                    <a>3．狀況排除後通知園區內各廠商。</a>
+                  </ul>
+                </td>
+              </tr>
+        </table>
+        
+        <span id="E-4-4">　</span><br/><br/>
+        <h5 id="bk-8" class="text-center" style="margin:0px;line-height:60px;"><b>電信通訊異常</b></h5>
+        <table class="rwd-table">
+          <tr id="bk-6">
+            <th class="text-center">啟動條件</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>            
+          <tr>
+            <td data-th="啟動條件">電信通訊中斷</td>
+            <td data-th="權責單位" >營建組</td>
+            <td data-th="決策層級">組長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1．聯繫廠商進行修復（廠商需於4小時內至缺失現場完成臨時警戒措施佈設，24小時內派員進場修繕）。</a>
+                <a>2．擺放告示牌說明故障原因與預計修復時間，並提醒用路人小心安全。</a>
+                <a>3．狀況排除後通知園區內各廠商。</a>
+              </ul>
+            </td>
+          </tr>
+        </table><br/><br/>
+        
+        <h4 id="E-5" style="margin-bottom:1rem;"><b>五、醫療／消防</b></h4>
+        <table class="rwd-table">
+          <tr style="background: hsla(240, 0%, 10%, 0.6)">
+            <th class="text-center">啟動條件</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>            
+          <tr>
+            <td data-th="啟動條件">緊急醫療事件及消防事宜</td>
+            <td data-th="權責單位" >環安組</td>
+            <td data-th="決策層級">組長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>聯繫確認已通報119處理，並進行電話紀錄提供後續追蹤依據。</a>
+              </ul>
+            </td>
+          </tr>
+        </table><br/><br/>
+        
+        <h4 id="E-6" style="margin-bottom:1rem;"><b>六、配合停班停課</b></h4>
+        <table class="rwd-table">
+          <tr id="bk-6">
+            <th class="text-center">啟動條件</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>            
+          <tr>
+            <td data-th="啟動條件">[政府公告] 園區所在區域將停班</td>
+            <td data-th="權責單位" >建管組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>發布公告，預告接駁車停駛時間及末班車時間。</a>
+              </ul>
+            </td>
+          </tr>
+        </table><br/><br/><br/><br/><br/><br/>
+
+        
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script>
+      $(function(){ 
+        var offset = 70;
+        $('.navbar li a').click(function(event) {
+          event.preventDefault();
+          $($(this).attr('href'))[0].scrollIntoView();
+          scrollBy(0, -offset);
+        });
+
+        $('.navbar a').on('click', function(){
+          $('.navbar-toggle').click();
+        });
+      });
+    </script>
+  </body>
+</html>
