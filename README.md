@@ -1,6 +1,3 @@
-# NEKOKON.github.io
-
-<!doctype html>
 <html lang="zh-8">
   <head>
     <!-- Required meta tags -->
