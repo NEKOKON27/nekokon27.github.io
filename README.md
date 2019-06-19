@@ -16,7 +16,7 @@
     <div class="container">
     <h1 style="margin:30px;">哈哈</h1>
     一個測試的圖片<br/>
-      <img scr="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+      <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
     
   
   
