@@ -1,0 +1,253 @@
+
+<html lang="zh-8">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    
+    <title>BCP防災腳本-平日整備工作</title>
+  </head>
+  <body>
+    <div id="screen" style="width:100%;color: #fff;" >
+      
+      <!-- As a heading -->
+      <nav class="navbar navbar-dark fixed-top" style="background: hsla(240, 0%, 10%, 1)">
+          <a class="navbar-brand mb-0" href="index.html"><b>平日整備工作</b></a>
+        <button type="button" class="btn btn-outline-light navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span>查詢組室</span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="myNavbar">
+          <ul class="nav d-flex-column">
+          <li id="nav-a" class="nav-item col-sm-3">
+            <a class="nav-link active" href="#Z44">人事室</a>
+          </li>
+            <li id="nav-a" class="nav-item col-sm-3">
+            <a class="nav-link" href="#HAZ">環安組</a>
+          </li>
+            <li id="nav-a" class="nav-item col-sm-3">
+            <a class="nav-link" href="#JGZ">建管組</a>
+          </li>
+            <li id="nav-a" class="nav-item col-sm-3">
+            <a class="nav-link" href="#EGZ" tabindex="-1" aria-disabled="true">營建組</a>
+          </li>
+            <li id="nav-a" class="nav-item col">
+              <a class="nav-link" href="index.html" tabindex="-1" aria-disabled="true">回到首頁</a>
+          </li>
+        </ul>
+        </div>
+      </nav>
+      
+      
+      <div class="container">  
+        <h5 id="Z44" class="text-center" style="background: hsla(240, 0%, 10%, 0.8);margin:0px;line-height:60px;margin-top:5rem;"><b>人　事　室</b></h5>
+        <table class="rwd-table">
+          <tr style="background: hsla(240, 0%, 10%, 0.3)">
+            <th class="text-center">標的</th>
+            <th class="text-center">啟動條件</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="標的">值星人員</td>
+            <td data-th="啟動條件">每月1日</td>
+            <td data-th="權責單位" >人事室</td>
+            <td data-th="決策層級">專員</td>
+            <td data-th="工作內容">排訂並通知局內各週總值星人員。</td>
+          </tr>
+        </table>
+        <h5 id="HAZ" class="text-center" style="background: hsla(240, 0%, 10%, 0.8);margin:0px;line-height:60px;margin-top:5rem;"><b>環　安　組</b></h5>
+        <table class="rwd-table">
+          <tr style="background: hsla(240, 0%, 10%, 0.3)">
+            <th class="text-center">標的</th>
+            <th class="text-center">啟動條件</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="標的">防災演練</td>
+            <td data-th="啟動條件">每年1/1、7/1</td>
+            <td data-th="權責單位">環安組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">每年進行園區防災演練與教育訓練，並確保園區外籍勞工確實理解(如準備外語教材及外語教育訓練)。</td>
+          </tr>
+          <tr>
+            <td data-th="標的">檢查污水排水系統</td>
+            <td data-th="啟動條件">每日</td>
+            <td data-th="權責單位">環安組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">每日進行園區內污水系統及雨水系統巡(稽)查及水質檢測，水質異常原因溯查並追蹤改善。</td>
+          </tr>
+          <tr>
+            <td data-th="標的">稽查污水排水系統</td>
+            <td data-th="啟動條件">每月1日</td>
+            <td data-th="權責單位">環安組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">每月進行「具製程廢水用戶」廢(污)水收集、處理、排放設施及其雨排水設施之巡(稽)查，納管水質異常者，應進行追蹤及輔導改善。</td>
+          </tr>
+          <tr>
+            <td data-th="標的">稽查污水排水系統</td>
+            <td data-th="啟動條件">每年1/1、7/1</td>
+            <td data-th="權責單位">環安組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">每半年進行「僅產生生活污水用戶」廢(污)水收集、處理、排放設施及其雨排水設施之巡(稽)查，納管水質異常者，應進行追蹤及輔導改善。</td>
+          </tr>
+          <tr>
+            <td data-th="標的">污水排水系統-巡檢</td>
+            <td data-th="啟動條件">每年1/1</td>
+            <td data-th="權責單位">環安組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">每年平均完成全園區約1/3長度之污水下水道收集溝渠及管線之巡檢工作(包括污水管線、溝渠、人孔及陰井相關設施)。</td>
+          </tr>
+          <tr>
+            <td data-th="標的">污水排水系統-管線TV檢視</td>
+            <td data-th="啟動條件">每年1/1</td>
+            <td data-th="權責單位">環安組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">每年進行污水管線TV檢視，依TV檢視結果之需要，要求廠商進行管線疏浚清理(每年預估疏浚管段長度約200公尺)。</td>
+          </tr>
+          <tr>
+            <td data-th="標的">污水處理場地板打蠟</td>
+            <td data-th="啟動條件">每年1/1、4/1、7/1、10/1</td>
+            <td data-th="權責單位">環安組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">每3個月進行汙水處理廠內部地坪打蠟。</td>
+          </tr>
+          <tr>
+            <td data-th="標的">污水處理場外牆清洗</td>
+            <td data-th="啟動條件">每年1/1</td>
+            <td data-th="權責單位">環安組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">每年進行汙水處理廠操控中心外牆清洗。</td>
+          </tr>
+        </table>
+        
+        <h5 id="JGZ" class="text-center" style="background: hsla(240, 0%, 10%, 0.8);margin:0px;line-height:60px;margin-top:5rem;"><b>建　管　組</b></h5>
+        <table class="rwd-table">
+          <tr style="background: hsla(240, 0%, 10%, 0.3)">
+            <th class="text-center">標的</th>
+            <th class="text-center">啟動條件</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="標的">園區接駁車</td>
+            <td data-th="啟動條件">每年1/1、4/1、7/1、10/1</td>
+            <td data-th="權責單位">建管組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">定期檢視園區接駁車淹水時園區內及園區外替代路線。</td>
+          </tr>
+          <tr>
+            <td data-th="標的">園區接駁車-汽車保養</td>
+            <td data-th="啟動條件">每年1/1、7/1</td>
+            <td data-th="權責單位">建管組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">接駁車輛定期保養及檢視。</td>
+          </tr>
+          <tr>
+            <td data-th="標的">建築</td>
+            <td data-th="啟動條件">每年1/1</td>
+            <td data-th="權責單位">建管組</td>
+            <td data-th="決策層級">組長</td>
+            <td data-th="工作內容">每15年做一次建築裂化診斷，加強建築物結構。</td>
+          </tr>
+        </table>
+        
+        <h5 id="EGZ" class="text-center" style="background: hsla(240, 0%, 10%, 0.8);margin:0px;line-height:60px;margin-top:5rem;"><b>營　建　組</b></h5>
+        <table class="rwd-table">
+          <tr style="background: hsla(240, 0%, 10%, 0.3)">
+            <th class="text-center">標的</th>
+            <th class="text-center">啟動條件</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="標的">供水管線</td>
+            <td data-th="啟動條件">每年1/1、4/1、7/1、10/1</td>
+            <td data-th="權責單位">營建組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">定期聯繫廠商進行園區供水系統管線漏水點之調查。</td>
+          </tr>
+          <tr>
+            <td data-th="標的">景觀</td>
+            <td data-th="啟動條件">每月1日</td>
+            <td data-th="權責單位">營建組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">每月進行園區內植栽修剪等景觀維護工作（參照「虎尾園區景觀及清潔維護工作工作項目期程統計表」）。</td>
+          </tr>
+          <tr>
+            <td data-th="標的">景觀-防颱修剪</td>
+            <td data-th="啟動條件">每年5/1</td>
+            <td data-th="權責單位">營建組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">夏季颱風季前(7月底前)，聯絡廠商針對具有危險性之枝條、枯枝、腐朽枝、過長枝條進行預防性修剪。</td>
+          </tr>
+          <tr>
+            <td data-th="標的">滯洪池</td>
+            <td data-th="啟動條件">每年1/1、7/1</td>
+            <td data-th="權責單位">營建組</td>
+            <td data-th="決策層級">科長</td>
+            <td data-th="工作內容">
+              <ul class="nav justify-content-center flex-column" style="margin-bottom:0rem;">
+                <a>1. 出水閘門平時關閉，保持生態功能之水量；</a>
+                <a>2. 蓄水量作為一般時期滯洪池之生態池水量, 維持呆水位；</a>
+                <a>3. 定期滯洪池相關設施進行保養與維修；</a>
+                <a>4. 開啟補充進水口，維持呆水位</a>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        
+        <br/><br/>
+        <h5 class="text-center" style="background: hsla(240, 0%, 10%, 0.8);margin:0px;line-height:60px;"><b>水情系統自動排程</b></h5>
+        <table class="rwd-table">
+          <tr style="background: hsla(240, 0%, 10%, 0.3)">
+            <th class="text-center">標的</th>
+            <th class="text-center">啟動條件</th>
+            <th class="text-center">權責單位</th>
+            <th class="text-center">決策層級</th>
+            <th class="text-center w-50">工作內容</th>
+          </tr>
+          <tr>
+            <td data-th="標的">通報廠商</td>
+            <td data-th="啟動條件">每星期一</td>
+            <td data-th="權責單位">--</td>
+            <td data-th="決策層級">--</td>
+            <td data-th="工作內容">通報廠商無警戒資訊。</td>
+          </tr>
+        </table><br/><br/>
+        
+      </div>
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script>
+      $(function(){ 
+        var offset = 70;
+        $('.navbar li a').click(function(event) {
+          event.preventDefault();
+          $($(this).attr('href'))[0].scrollIntoView();
+          scrollBy(0, -offset);
+        });
+
+        $('.navbar a').on('click', function(){
+          $('.navbar-toggle').click();
+        });
+      });
+    </script>
+  </body>
+</html>
